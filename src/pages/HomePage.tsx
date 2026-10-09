@@ -3,7 +3,6 @@ import { HeroSection } from '../components/home/HeroSection';
 import { TrustStrip } from '../components/home/TrustStrip';
 import { AboutPreview } from '../components/home/AboutPreview';
 import { PracticeAreasSection } from '../components/home/PracticeAreasSection';
-import { ExperiencePreview } from '../components/home/ExperiencePreview';
 import { TestimonialsSection } from '../components/home/TestimonialsSection';
 import { ConsultationCTA } from '../components/home/ConsultationCTA';
 import { FAQSection } from '../components/home/FAQSection';
@@ -15,7 +14,6 @@ export const HomePage: React.FC = () => {
       <TrustStrip />
       <AboutPreview />
       <PracticeAreasSection />
-      <ExperiencePreview />
       <TestimonialsSection />
       <ConsultationCTA />
       <FAQSection />
